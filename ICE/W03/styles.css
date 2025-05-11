@@ -1,0 +1,48 @@
+.header-content {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.header-lines {
+  border-radius: 3px;
+}
+
+.header-info {
+  display: flex;
+  gap: 15px;
+}
+
+.header-image {
+  border: 0cap;
+  border-radius: 50px;
+}
+
+.body-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  max-width: 1000px;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.main-boxe {
+  width: 200px;
+}
+
+.main-item-label {
+  border-radius: 3px;
+}

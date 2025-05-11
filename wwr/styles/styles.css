@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(242, 224, 135, 0.4);
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(37, 49, 33);
+  padding: 40px;
+
+  p, a {
+    color: #FFFFFF;
+  }
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(37, 49, 33);
+}
+
+.logo {
+  margin-left: 10px;
+  width: 80px;
+}
+
+.header-nav {
+  nav {
+    display: flex;
+    font-size: 20px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 100px;
+    font-size:x-large;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    transition: border-botton 0.5 ease;
+  }
+  
+  a:hover {
+    background-color: rgb(242, 224, 135, 0.4);
+    border-bottom: solid;
+    border-bottom-color: #FFFFFF;
+    min-height: 95px;
+  }
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.home-title {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  color: rgb(37, 49, 33);
+}
+
+.home-subtitle {
+  display: flex;
+  justify-content: center;
+  color: rgb(37, 49, 33);
+  font-size: 20px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+
+  a {
+    background-color: rgb(11, 26, 125);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  a:hover {
+    background-color: rgba(26, 75, 153, 0.8);
+  }
+}
+
+.home-grid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.home-grid-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 90%;
+  margin-top: 100px;
+  padding-bottom: 20px;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    width: 80px;
+  }
+}
+
+.card-img {
+  max-width: 400px;
+  transition: max-width 0.5s ease;
+}
+
+.card-img:hover {
+  max-width: 430px;
+}
+
+.home-grid-mountain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  max-width: 80%;
+}
+
+.join {
+  background-color: rgb(11, 26, 125);
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+  position: relative;
+  top: 20px;
+}
+
+.join:hover {
+  background-color: rgba(26, 75, 153, 0.8);
+}
