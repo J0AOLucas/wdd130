@@ -147,3 +147,14 @@ footer {
 .join:hover {
   background-color: rgba(26, 75, 153, 0.8);
 }
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+#background {
+  height: 725px;
+  width: 100%;
+  background-color: rgb(37, 49, 33);
+}
