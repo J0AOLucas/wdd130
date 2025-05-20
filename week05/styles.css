@@ -5,7 +5,7 @@ body {
 .main-content {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: -4px;
   gap: 50px;
   padding: 10%;
   background-color: rgb(105, 104, 104);
