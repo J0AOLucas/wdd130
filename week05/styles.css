@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  gap: 50px;
+  padding: 10%;
+  background-color: rgb(105, 104, 104);
+}
+
+.main-content img {
+  border: solid;
+  border-width: 0.50rem;
+  border-color:rgb(54, 54, 54);
+  border-radius: 50%;
+  width: 25%;
+}
