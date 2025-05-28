@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  height: 100%;
+}
+
+.first-block {
+  width: 50%;
+} & img {
+  width: 100%;
+}
+
+.second-block {
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgb(176, 176, 176);
+  display: flex ;
+  width: 50%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  size: 40px;
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  font-size: 11vw;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+}
+
+.subtitle {
+  display: flex ;
+  text-align: center;
+  justify-content: center;
+  font-size: 5vw;
+  letter-spacing: 15px;
+  color:brown;
+  padding: 50px;
+}
