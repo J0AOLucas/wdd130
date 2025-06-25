@@ -121,12 +121,47 @@ body {
   background-color: var(--secondary-color);
   transition: 0.2s;
 }
-
 .offer-image {
- margin-top: 100px; 
-  
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .offer-image img {
   width: 100%;
+  height: auto;
+  display: block;
+}
+
+.offer-image h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 2rem;
+  z-index: 1;
+  margin: 0;
+  font-family: 'Sansita Swashed', sans-serif;
+}
+
+.offer-image button {
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  background-color: var(--buttons-color);
+  border: none;
+  border-radius: 20px;
+  color: var(--primary-color);
+  width: 150px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.offer-image button:hover {
+  background-color: var(--secondary-color);
+  transition: 0.5s;
 }
