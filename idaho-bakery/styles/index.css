@@ -208,10 +208,54 @@ body {
 .about-image {
   display: flex;
   justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 50px auto;
+  max-width: 600px;
+  width: 100%;
 }
 
 .about-image img {
-  margin: 100px 0px;
-  max-width: 600px;
-  width: 60%;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #543200b3;
+  z-index: 1;
+}
+
+.about-image:hover .overlay {
+  opacity: 1;
+}
+
+.person-image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
